@@ -8,7 +8,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Set the FastAPI server URL
-API_URL = "http://localhost:8000"  # Change if your FastAPI runs on different port
+# API_URL = "http://localhost:8000"  # Change if your FastAPI runs on different port
+API_URL = "https://neurodocs-1.onrender.com"  # Change if your FastAPI runs on different port
 
 st.set_page_config(
     page_title="NeuroDocs",
